@@ -46,7 +46,7 @@ body{
     color:black;
     overflow: scroll;
  }
- .create-note-input:focus,.create-note-heading:focus{
+.create-note-input:focus,.create-note-heading:focus{
     outline:none;
 }
 
@@ -59,14 +59,13 @@ body{
     color:black;
     overflow: scroll;
 }
-
 .create-note-button{
     width:120px;
     color:white;
-    padding:10px;
     border-radius:15px;
     border:1px solid white;
     background: transparent;
+    text-align: center;
 }
 
 
