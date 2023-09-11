@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+body{
+    min-height: 100vh;
+    width:100%;
+    background: linear-gradient(45deg,#ff9ce3, #4ab3ff);
+    overflow:hidden;
+    /* opacity: 0;
+    transition: opacity 1s ease; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .create-notes-container{
+    width:300px;
+    min-height:350px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding:10px;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter:blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .heading{
+    font-weight: bold;
+    font-size: 30px;
+ }
+ .create-note-input{
+    height:200px;
+    width:80%;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    color:black;
+    overflow: scroll;
+ }
+.create-note-input{
+    outline:none;
+}
+
+.create-note-button{
+    width:120px;
+    color:white;
+    padding:10px;
+    border-radius:15px;
+    border:1px solid white;
+    background: transparent;
+}
+
+
+ .circle1{
+    background:lightblue;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background: linear-gradient(180deg,#0094ff,#97ff57);
+    filter:blur(3px);
+    transform:rotate(18deg);
+    position:absolute;
+    left:-70px;
+    top:-100px;
+}
+
+.circle2{
+    background:lightblue;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background: linear-gradient(180deg,#ff57d0,#0094ff);
+    filter:blur(3px);
+    transform:rotate(18deg);
+    position:absolute;
+    right:-30px;
+    bottom:-70px;
+}
